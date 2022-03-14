@@ -1,12 +1,14 @@
-#include "player.h"
+#ifndef HUMAN_H
+#define HUMAN_H
 
 class Human : public player{
     public:
     Human();
 
-    char makeMove() override;
+    char makeMove() 
 
     private:
     char initialMove ='';
 
 };
+#endif

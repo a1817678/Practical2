@@ -1,11 +1,11 @@
-#ifndef ADDS_2022_S1_TEACHING_COMPUTERPLAYER_H
-#define ADDS_2022_S1_TEACHING_COMPUTERPLAYER_H
+#ifndef COMPUTER_H
+#define COMPUTER_H
 
-#include "player.h"
 
-class Computer : public player{
+class Computer{
     public:
     Computer( ); // constructor
     char makeMove( ); 
 
 }
+#endif
