@@ -1,3 +1,6 @@
+#ifndef CMAKE_CLION_CONAN_TEMPLATE_PLAYER_H 
+#define CMAKE_CLION_CONAN_TEMPLATE_PLAYER_H
+
 #include <string>
 #include <iostream>
 
